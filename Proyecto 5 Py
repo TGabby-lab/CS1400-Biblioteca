@@ -1,0 +1,15 @@
+# librería math en python
+import math
+
+decNum = -34.5678
+intNum = 9
+print("Valor absoluto de decNum: ", abs(decNum))
+
+print( round(decNum, 2) ) 34.57
+print( round(decNum, 0) ) 35.0   
+print( int(decNum))34       
+print( abs(decNum) ) 34.5678      
+
+print( math.pow(intNum, 2)  )81.0 
+
+print( math.sqrt(intNum) ) 3.0      
