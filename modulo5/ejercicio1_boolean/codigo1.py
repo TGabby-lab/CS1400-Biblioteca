@@ -18,9 +18,13 @@ print("puedes salir")
 
 
 # TODO 2: Usa una expresión booleana con "or" para permitir salir si es fin de semana o tiene permiso
+es_finde = input("¿Es fin de semana? (True/False) ")
+
 # Por ejemplo: ¿Puede salir si es fin de semana O si tiene permiso?
 print("¿Puede salir si es fin de semana o si tiene permiso?")
-puede_salir_finde = es_finde or tiene_permiso
+puede_salir_finde = es_finde == 20 
+"True" or tiene_permiso
+
 print(puede_salir_finde)
 
 
